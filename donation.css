@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f1117;
+    padding: 20px 50px;
+    color: white;
+    align-items: center;
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a{
+text-decoration: none;
+color: white;
+margin: 0 14px;
+font-size: 16px;
+}
+.auth-button{
+    gap: 20px;
+    display: flex;
+}
+.auth-button button{
+    padding: 14px 22px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.auth-button .Login{
+    background-color:transparent;
+    border:1px solid white;
+    color: white;
+    border-radius: 6px;
+}
+.Login:hover{
+    background-color: #ff0055;
+    color: white;
+    border:1px solid white;
+    border: none;
+}
+.auth-button .Donate{
+    background-color: #ff0055;
+    color: white;
+    border-radius: 6px;
+}
+.Donate:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+}
+
+.donation-box{
+    background-color:#0f1117;
+    padding: 20px;
+    width: 20%;
+    margin: 5% auto;
+}
+.donation-box h3{
+    font-size: 24px;
+    color: white;
+}
+.amount-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.amount-options button{
+    padding: 10px 20px;
+    cursor: pointer;
+    flex: 1;
+    border: none;
+}
+.amount-options button:hover{
+    background-color: #ff0055;
+    color: white;
+}
+.amount-options input{
+    padding: 10px ;
+    flex: 1 1 100%;
+}
+.give-button{
+    padding: 10px;
+    width: 100%;
+    background-color: #ff0055;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.give-button:hover{
+    background-color: #0f1117;
+    border: 1px solid white;
+}
+
+.footer{
+    padding: 30px 20px;
+    border-top: 5px solid #ff0055;
+    display: flex;
+}
+.footer-contianer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+}
+.footer-section h3{
+    color: #ff0055;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.address-item{
+    margin-bottom: 12px;
+
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background:linear-gradient(to bottom right, #ff0055, #0f1117) ;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
